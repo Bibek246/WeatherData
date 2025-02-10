@@ -1,0 +1,39 @@
+{
+    "Title": "Daily Weather Data for Idaho, USA",
+    "Creator": "Your Name",
+    "Date Created": "2025-02-09",
+    "Description": "Dataset containing daily weather metrics (temperature, humidity, wind speed, and precipitation) for Idaho over a 7-day period.",
+    "Location": "Idaho, USA",
+    "Timeframe": "2025-02-03 to 2025-02-09",
+    "Columns": [
+        "Date",
+        "Temperature (\u00b0C)",
+        "Humidity (%)",
+        "Wind Speed (m/s)",
+        "Precipitation (mm)"
+    ],
+    "Data Types": {
+        "Date": "String (YYYY-MM-DD)",
+        "Temperature": "Numeric (\u00b0C)",
+        "Humidity": "Numeric (%)",
+        "Wind Speed": "Numeric (m/s)",
+        "Precipitation": "Numeric (mm)"
+    },
+    "Units": {
+        "Temperature": "Degrees Celsius",
+        "Humidity": "Percentage",
+        "Wind Speed": "Meters per second",
+        "Precipitation": "Millimeters"
+    },
+    "Collection Method": "Python script using OpenWeatherMap API",
+    "Environment": "Python (Jupyter Notebook/Google Colab)",
+    "Extraction Date": "2025-02-09",
+    "Motivation": "Understanding daily weather trends in a specific location.",
+    "Scope": "Analyze short-term weather variations and compare with seasonal norms.",
+    "Future Changes": "Expand dataset to include multiple cities and longer timeframes.",
+    "Data Format": "CSV (.csv)",
+    "Metadata Standards": [
+        "Dublin Core",
+        "ISO 19115"
+    ]
+}
