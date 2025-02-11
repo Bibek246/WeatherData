@@ -6,16 +6,13 @@
 📌 Project Description
 This project collects daily weather data for a specified location using the OpenWeatherMap API. The collected data includes:
 
-Temperature (°C)
+**Temperature (°C)
 Humidity (%)
 Wind Speed (m/s)
-Precipitation (mm)
+Precipitation (mm)**
 The dataset is stored in CSV format and is accompanied by a metadata.json file following Dublin Core and ISO 19115 metadata standards.
 
 📌 Folder Structure
-bash
-Copy
-Edit
 WeatherData/
 │── weather_data.csv        # Main dataset with collected weather metrics
 │── metadata.json           # Metadata file describing the dataset
@@ -27,9 +24,6 @@ Before running the script, ensure you have:
 
 Python 3.7+
 Required Python libraries:
-bash
-Copy
-Edit
 pip install requests pandas openpyxl
 🔹 2. Getting Your OpenWeatherMap API Key
 Go to OpenWeatherMap
@@ -39,9 +33,6 @@ Generate a free API key and replace "YOUR_API_KEY" in the script.
 🔹 Step 1: Collect Weather Data
 Run the following Python script to fetch and store real-time weather data:
 
-python
-Copy
-Edit
 python Convert_Json.py
 This will:
 
@@ -58,9 +49,6 @@ Date	Temperature (°C)	Humidity (%)	Wind Speed (m/s)	Precipitation (mm)
 2024-02-01	8.5	72	4.5	1.2
 2024-02-02	7.2	78	3.9	0.0
 📌 Example Metadata (metadata.json)
-json
-Copy
-Edit
 {
     "Title": "Daily Weather Data for New York, USA",
     "Creator": "Your Name",
