@@ -1,0 +1,37 @@
+{
+    "Title": "Daily Historical Weather Data from NOAA",
+    "Creator": "Bibek Sharma",
+    "Date Created": "2025-02-10",
+    "Description": "Dataset containing daily historical weather metrics (temperature, humidity, wind speed, and precipitation) for a selected NOAA station.",
+    "Location": "Station ID: GHCND:USW00024131",
+    "Timeframe": "2024-02-11 to 2025-02-10",
+    "Columns": [
+        "Date",
+        "Max Temperature (\u00b0C)",
+        "Min Temperature (\u00b0C)",
+        "Wind Speed (m/s)",
+        "Precipitation (mm)"
+    ],
+    "Data Types": {
+        "Date": "String (YYYY-MM-DD)",
+        "Max Temperature": "Numeric (\u00b0C)",
+        "Min Temperature": "Numeric (\u00b0C)",
+        "Wind Speed": "Numeric (m/s)",
+        "Precipitation": "Numeric (mm)"
+    },
+    "Units": {
+        "Temperature": "Degrees Celsius",
+        "Wind Speed": "Meters per second",
+        "Precipitation": "Millimeters"
+    },
+    "Collection Method": "Python script using NOAA Climate Data Online (CDO) API",
+    "Environment": "Python (Jupyter Notebook/Google Colab)",
+    "Extraction Date": "2025-02-10",
+    "Motivation": "Understanding past weather trends for a given location.",
+    "Scope": "Analyze short-term historical weather variations.",
+    "Data Format": "CSV (.csv)",
+    "Metadata Standards": [
+        "Dublin Core",
+        "ISO 19115"
+    ]
+}
